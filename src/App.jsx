@@ -15,7 +15,6 @@ function App() {
       <div>
         <h1>Handbags & Purses</h1>
         <nav>
-          {/* Gebruik de ButtonLoadText-component met verschillende props */}
           <ButtonLoadText text="To the collection" disabled={false} />
           <ButtonLoadText text="Shop all bags" disabled={false} />
           <ButtonLoadText text="Pre-orders" disabled={true} />
@@ -27,12 +26,6 @@ function App() {
                   <TheBags title="Discount" img={bag4} name="The trendy bag" price="€150,."/>
           </main>
 
-      {/*    Maak een omwikkelende footer-tag voor de tegels. Maak vier section-elementen met daarin:
-Een afbeelding van het merk of de designers (als er geen tekst in staat)
-Een h2-element voor de titel en p-elementen voor de paragrafen (als er wel tekst in staat)
-Maak nu een custom Tile-component die alle benodigde data kan ontvangen. Als er een afbeelding wordt meegegeven
- gedraagt hij zich als een foto-tegel, maar zonder afbeelding is het een tekst-tegel. Houd er rekening mee dat je van
- tevoren ook niet weet hoeveel losse paragrafen er in een Tile komen te staan.*/}
 
           <footer>
 
